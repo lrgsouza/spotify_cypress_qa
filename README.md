@@ -14,11 +14,15 @@
 ## Para rodar o projeto
 
 ``` 
-npm install cypress
+npm install cypress --save-dev
 npm run start:cypress
 ```
 
 Os testes estão contidos no arquivo e2e "spotify_qa.cy.js"
 
+## Para rodar e gerar os relatórios
+```
+./node_modules/.bin/cypress run --spec 'cypress/e2e/**/'
+```
 #
 ## OBS: Para todo teste é configurada a linguagem Inglês para manter o padrão em todos os computadores. Também serve de validação para configuração de idioma padrão.

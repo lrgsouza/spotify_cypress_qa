@@ -128,3 +128,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+testes/cypress/reports/*
+testes/cypress/screenshots/*
